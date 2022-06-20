@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ionut Potolea Portfolio Website</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+            crossorigin="anonymous"
+        />  
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,400,900&display=swap"
+            rel="stylesheet"
+        >
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/ionutpotolea-logo.png" alt="website-logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">My Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">My Work</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ionut Potolea</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img
+                src="img/ionutpotolea-01.jpg"
+                alt="a picture of Ionut Potolea smiling"
+                class="intro__img"
+            />
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <div class="section__title--container">
+                <h2 class="section__title section__title--services">What I do</h2>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <h3>Frontend Development</h3>
+                    <p>I enjoy building modern, visually pleasing websites, while writing clean, maintainable and reusable code. With a detail-oriented mindset, I constantly search for ways to optimize and improve the code I'm writing.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>UX/UI Design</h3>
+                    <p>Coming from a video editing background, I have a strong understanding of design principles. I firmly believe it is important to always have the end-user in mind while building a product. I produce responsive websites that provide users the best experience suited to their device and browser.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>WordPress </h3>
+                    <p>I fully believe in the power of building websites from scratch, but in some cases Wordpress is a great tool one cannot ignore. Using Elementor and WooCommerce, I build custom websites that are easy to manage and update by the client.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Video editor turned <strong>Frontend developer</strong></p>
+           
+           <div class="about-me__body">
+                <p>
+                    I am a
+                    <span
+                    class="txt-rotate"
+                    data-period="2000"
+                    data-rotate='[ "developer.", "video-editor.", "film-maker.", "photographer.", "radio DJ.", "problem-solver.", "husband.", "dad.", "foodie.", "travel geek.", "melomaniac.", "coffee fanatic." ]'
+                    ></span>
+                </p>
+               <p>I describe myself as a <strong>cretive problem-solver</strong>. I always enjoyed working on projects where I could simultaneously use my <strong>technical skills</strong> and <strong>creativity</strong>. I've been a Radio DJ, a video-editor, a film-maker, a photographer, and more recently a developer.</p>
+               <p>I happily discovered that I could code during the 2020 pandemic. I joined <strong><a href="https://scoalainformala.ro/">The Informal School of IT</a></strong> for a JavaScript course and after the third or fourth lesson, things "clicked". I was able to understand all the new concepts but also able to explain them to fellow studends who were struggling. After that, I joined the <strong><a href="https://scrimba.com/learn/frontend">Scrimba Frontend Developer Career Path</a></strong>, which took my coding skills to the next level.</p>
+               <p>Now I am ready to continue my journey and be part of a Frontend Development Team.</p>
+           </div>
+           
+           <img
+                src="img/ionutpotolea-02.jpg"
+                alt="Ionut Potolea sitting on a chair and smiling"
+                class="about-me__img"
+            />
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <div class="container">
+                <div class="section__title--container">
+                    <h2 class="section__title section__title--work">My work</h2>
+                </div>
+                <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+                
+                <div class="portfolio">
+                    <!-- Portfolio item 01 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-01.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-1"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                TechCube
+                            </h3>
+                            <p class="portfolio__item__body">
+                                This is the capstone project for the JavaScript course I followed at The informal School of IT. 
+                                It is a CRUD app that also uses localstorage to store the cart. The code is organized following the MVC - Model-View-Controller Pattern. The project uses modern ES6 JavaScript concepts such as classes, async/await, let/const. Also regex validations were used for form input fields. The app keeps track of the stock of products. If a user orders a product, that product is automatically removed from the stock count. If a product becomes out of stock, the users have the option to setup an email alert when the product becomes available.
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://github.com/ionutpotolea/TechCube-Online-Store"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View code
+                                </a>
+                                <a
+                                    href="https://ionutpotolea.github.io/TechCube-Online-Store/"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 02 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-02.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-2"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                Quizzical
+                            </h3>
+                            <p class="portfolio__item__body">
+                                This a React solo project from Scrimba's Frontend Developer Career Path.
+                                It uses the Open Trivia DB to get 5 trivia questions.
+                                The concepts touched in this project include:
+                                <ul>
+                                    <li>Reusable components</li>
+                                    <li>JSX</li>
+                                    <li>Props</li>
+                                    <li>State</li>
+                                    <li>useEffect</li>
+                                    <li>Prop Drilling</li>
+                                </ul>
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://github.com/ionutpotolea/react-quizzical"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View code
+                                </a>
+                                <a
+                                    href="https://ionutpotolea.github.io/react-quizzical"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 03 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-03.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-3"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                MovieFinder
+                            </h3>
+                            <p class="portfolio__item__body">
+                                MovieFinder is one of my early projects. It is based on the OMDb API - The Open Movie Database.
+                                It uses URL searchParams and the History API to save the user's query and navigate between items and search results.
+                                This is where I practiced concepts like responsive-web-design, flexbox, css transitions, fetch, for loops, JSON.
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://github.com/ionutpotolea/MovieFinder"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View code
+                                </a>
+                                <a
+                                    href="https://ionutpotolea.github.io/MovieFinder/"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 04 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-04.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-4"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                ArtIzNLove UI/UX design prototype
+                            </h3>
+                            <p class="portfolio__item__body">
+                                This is a design prototype for a WordPress website I built using Figma. Here I applied design principles such as white space, visual hierarchy, alignment, color, typography.
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Apps used</em>: <strong>Figma</strong>, <strong>Photoshop</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://www.figma.com/file/EvKNORE0caAsGB3sNmkV8E/Home?node-id=2%3A2"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View project
+                                </a>
+                                <a
+                                    href="https://www.figma.com/proto/EvKNORE0caAsGB3sNmkV8E/Home?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View Prototype
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 05 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-05.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-5"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                Weather App
+                            </h3>
+                            <p class="portfolio__item__body">
+                                This Weather App is one of my early projects. It is based on the OpenWeather API. 
+                                It uses geolocation to display the current weather and the forecast based on the user's location.
+                                Users can also search for other locations as well and are able to switch between Fahrenheit and Celsius (imperial / metric) units.
+                                This project also uses the Moment.js library to correctly display the date and time on the page.
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://github.com/ionutpotolea/Weather-App"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View code
+                                </a>
+                                <a
+                                    href="https://ionutpotolea.github.io/Weather-App/"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 06 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-06.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-6"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                Digital Business Card
+                            </h3>
+                            <p class="portfolio__item__body">
+                                This is my first React solo project. It's just a static website, but for me it layed the foundation to writing React, JSX and Reusable components.
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>React</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://github.com/ionutpotolea/react-digital-business-card"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View code
+                                </a>
+                                <a
+                                    href="https://ionutpotolea.github.io/react-digital-business-card/"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 07 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-07.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-7"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                Color Scheme Generator
+                            </h3>
+                            <p class="portfolio__item__body">
+                                This app uses The Color API (thecolorapi.com) to get color schemes, based on a color picked by the user.
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://codepen.io/ionutpotolea/pen/XWZwpQN"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 08 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-08.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-8"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                Password Generator
+                            </h3>
+                            <p class="portfolio__item__body">
+                                This app generates four different random passwords. The user may also choose the password length (between 8 and 32).
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://codepen.io/ionutpotolea/pen/dydENEd"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                View project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 09 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-09.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-9"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                Unit Convertor
+                            </h3>
+                            <p class="portfolio__item__body">
+                                This is an imperial to metric convertor for length, volume and mass.
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://codepen.io/ionutpotolea/pen/mdXYWOv"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio item 10 -->
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__image-section">
+                            <img
+                                src="img/portfolio-item-10.jpg"
+                                class="portfolio__item__img"
+                                alt="portfolio-item-10"
+                            />
+                        </div>
+                        <div class="portfolio__item__description">
+                            <h3 class="portfolio__item__title">
+                                Invoice creator
+                            </h3>
+                            <p class="portfolio__item__body">
+                                A simple invoicing app made with vanilla JavaScript.
+                            </p>
+                            <p class="portfolio__item__body">
+                                <em>Languages used</em>: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
+                            </p>
+                            <div class="portfolio__item__btns">
+                                <a
+                                    href="https://codepen.io/ionutpotolea/pen/yLvWMMV"
+                                    class="btn"
+                                    target="_blank"
+                                    role="button"
+                                >
+                                    View project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:ionut.potolea@gmail.com" class="footer__link">ionut.potolea@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/ionutpotolea/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/ionutpotolea" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/ionutpotolea" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/IPotolea" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

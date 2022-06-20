@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fredrik Ridderfalk's Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Fredrik Ridderfalk</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="img/dev-fredrik-01.png"
+        alt="a picture of Fredrik Ridderfalk smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <div class="section__title--container">
+        <h2 class="section__title section__title--services">What I do</h2>
+      </div>
+      <div class="services">
+        <div class="service">
+          <h3>Front-End Development</h3>
+          <p class="service__text">
+            I produce responsive websites and web apps that provide users the
+            best and most appropriate experience suited to their device and
+            browser. I particularly like working on websites that have seamless
+            transitions and require high-level performance to maintain an
+            appealing website.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>UX/UI Design</h3>
+          <p class="service__text">
+            I believe it is important to understand both design and development
+            to achieve a successful user-facing product. I enjoy the iterative
+            process and to frequently reach out to gather user and stakeholder
+            feedback. I plan all my work according to web content accessibility
+            guidelines.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Mobile Development</h3>
+          <p class="service__text">
+            I have experience building for both iOS and Android using React
+            Native and prototyping using Figma. I have used the Admob platform
+            for monetization by implementing a variety of ads. Check out my
+            portfolio to see my latest collaborative project.
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">See my work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Biologist & teacher turned <strong>developer</strong>
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am a
+          <span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "developer.", "scientist.", "high-school teacher.", "foodie.", "content creator.", "cat dad of three." ]'
+          ></span>
+        </p>
+        <p>
+          I became a molecular biologist, and conducted cancer research using
+          immunotherapy, worked on developing 3D-printed human organs, and I
+          collaborated on bringing genetically engineered wheat crops to farmers
+          in Bangladesh that can withstand dire environmental stresses due to
+          climate change. I then brought my passion for science into the
+          high-school classroom. I have eagerly pioneered the use of digital
+          learning technologies in my classrooms to increase student engagement.
+          As the pandemic struck, I put the teaching on hold and became a
+          self-taught developer, realizing my knack for problem-solving in the
+          digital space. I have worn many hats and bring with me a wide set of
+          knowledge and experience from my different professional odysseys.
+        </p>
+        <p>
+          My main experience is in front-end development but I also have a
+          passion for design. I believe having experience in both design and
+          development allows for making the most optimal user experiences. I
+          love to code things from scratch, and enjoy bringing ideas to life in
+          the browser.
+        </p>
+      </div>
+
+      <img src="img/dev-fredrik-03.png" alt="" class="about-me__img" />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 1 -->
+        <div class="portfolio__text portfolio__text-1">
+          <h3 class="portfolio__subtitle">Padel Scorekeeping App</h3>
+          <p>
+            Collaborative project. Mobile app developed for both iOS and
+            Android. Designed and prototyped using Figma and built using React
+            Native. Deployed on Apple App Store and Google Play.
+          </p>
+          <p>
+            Keep track of the score of your padel matches with this streamlined
+            and easy to use padel scorekeeping app.
+          </p>
+          <p>Features:</p>
+          <ul>
+            <li>Swipe ↑/↓ for point scoring</li>
+            <li>Supports best of 1, 3, or 5 sets</li>
+            <li>Play with tie-break ruleset</li>
+            <li>Dynamic indicator for serving team</li>
+            <li>Ability to undo points</li>
+            <li>Reset the match at any time</li>
+            <li>Haptic feedback for scoring</li>
+          </ul>
+          <p>PadelMate for ⌚️iWatch coming soon!</p>
+          <p class="typing-loader"></p>
+        </div>
+        <a
+          href="https://github.com/HannahSchafer/PadelScoreKeeper"
+          class="portfolio__item portfolio__item-1"
+          target="_blank"
+        >
+          <img
+            src="img/padelmate_mockup.png"
+            alt=""
+            class="portfolio__img portfolio__img-1"
+          />
+        </a>
+
+        <!-- Portfolio item 2 -->
+        <div class="portfolio__text portfolio__text-2">
+          <h3 class="portfolio__subtitle">Chrome Extension</h3>
+          <p>
+            An extension built from scratch and deployed to the Chrome browser.
+          </p>
+          <p>
+            Bookmarks and displays any links by input, and can also with a
+            single click save the link for the current tab in focus. This is a
+            great way to save recipes found in the wild wild web, and separate
+            them from an already cluttered Chrome bookmarks folder.
+          </p>
+        </div>
+        <a
+          href="https://github.com/FredrikRidderfalk/chrome_recipes_extension"
+          class="portfolio__item portfolio__item-2"
+          target="_blank"
+        >
+          <img
+            src="img/chrome_extension_1.png"
+            alt=""
+            class="portfolio__img portfolio__img-2"
+          />
+        </a>
+
+        <!-- Portfolio item 3 -->
+        <div class="portfolio__text portfolio__text-3">
+          <h3 class="portfolio__subtitle">Blackjack Game</h3>
+          <p>
+            Developed with CSS/JavaScript. The classic game of Blackjack.
+            featuring an engaging layout, responsive updates from the Blackjack
+            dealer, your name and remaining bankroll, .
+          </p>
+          <p>Features:</p>
+          <ul>
+            <li>An engaging layout</li>
+            <li>Responsive updates from the Blackjack dealer</li>
+            <li>Your name and remaining bankroll</li>
+            <li>A start button dealing the user two cards</li>
+            <li>Ability to ask for another card to be dealt</li>
+            <li>The NEW CARD button disables at game over</li>
+          </ul>
+          <p>Tooltip showing rulset coming soon!</p>
+          <p class="typing-loader"></p>
+        </div>
+        <a
+          href="https://github.com/FredrikRidderfalk/blackjack"
+          class="portfolio__item portfolio__item-3"
+          target="_blank"
+        >
+          <img
+            src="img/blackjack.png"
+            alt=""
+            class="portfolio__img portfolio__img-3"
+          />
+        </a>
+
+        <!-- Portfolio item 4 -->
+        <div class="portfolio__text portfolio__text-4">
+          <h3 class="portfolio__subtitle">Passenger Counter</h3>
+          <p>
+            Developed with JavaScript. A streamlined counting app featuring a
+            counter, an increment button, and a save button that logs the
+            counted number to an array.
+          </p>
+        </div>
+        <a
+          href="https://github.com/FredrikRidderfalk/passenger_counting_app"
+          class="portfolio__item portfolio__item-4"
+          target="_blank"
+        >
+          <img
+            src="img/passenger_counter.png"
+            alt=""
+            class="portfolio__img portfolio__img-4"
+          />
+        </a>
+
+        <!-- Portfolio item 5 -->
+        <div class="portfolio__text portfolio__text-5">
+          <h3 class="portfolio__subtitle">Temperature Converter</h3>
+          <p>
+            A streamlined chrome extension app for converting degrees between
+            Celsius and Fahrenheit. The user receives output with precision of
+            one decimal.
+          </p>
+        </div>
+        <a href="#" class="portfolio__item portfolio__item-5" target="_blank">
+          <img
+            src="img/temperature_converter.png"
+            alt=""
+            class="portfolio__img portfolio__img-5"
+          />
+        </a>
+
+        <!-- Portfolio item 6 -->
+        <div class="portfolio__text portfolio__text-6">
+          <h3 class="portfolio__subtitle">Email Newsletter</h3>
+          <p>Coming soon!</p>
+          <p class="typing-loader"></p>
+        </div>
+        <a href="#" class="portfolio__item portfolio__item-6" target="_blank">
+          <img
+            src="img/portfolio-06.jpg"
+            alt=""
+            class="portfolio__img portfolio__img-6"
+          />
+        </a>
+
+        <!-- Portfolio item 7 -->
+        <div class="portfolio__text portfolio__text-7">
+          <h3 class="portfolio__subtitle">Food Blog</h3>
+          <p>Coming soon!</p>
+          <p class="typing-loader"></p>
+        </div>
+        <a href="#" class="portfolio__item portfolio__item-7" target="_blank">
+          <img
+            src="img/food_blog.jpg"
+            alt=""
+            class="portfolio__img portfolio__img-7"
+          />
+        </a>
+
+        <!-- Portfolio item 8 -->
+        <div class="portfolio__text portfolio__text-8">
+          <h3 class="portfolio__subtitle">Netflix Clone</h3>
+          <p>Coming soon!</p>
+          <p class="typing-loader"></p>
+        </div>
+        <a href="#" class="portfolio__item portfolio__item-8" target="_blank">
+          <img
+            src="img/netflix.jpg"
+            alt=""
+            class="portfolio__img portfolio__img-8"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:ridderfalk@gmail.com" class="footer__link"
+        >ridderfalk@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/fredrikridderfalk/"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://github.com/FredrikRidderfalk"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://twitter.com/Ridderfalk"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="" class="social-list__link"><i class="fas fa-globe"></i></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
