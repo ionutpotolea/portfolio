@@ -136,10 +136,12 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 1em;
 }
 
-.section__subtitle--work {
+.section__subtitle--work,
+.section__subtitle--skills {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+    margin-top: 1rem;
 }
 
 /* Section titles with gradient animations */
@@ -387,12 +389,7 @@ header {
     text-align: center;
 }
 
-.my-skills p a {
-    color: var(--clr-accent);
-}
-
 .section__title--skills {
-    color: var(--clr-accent);
     position: relative;
 }
 
@@ -424,6 +421,14 @@ header {
     object-fit: contain;
     display: block;
     margin: 0 auto;
+}
+
+.skills-wip{
+    margin: 1rem 0 2rem;
+}
+
+.skills-wip p {
+    margin: .5rem;
 }
 
 @media (min-width: 800px) {
@@ -493,10 +498,6 @@ about-me__body {
 .section__title--work,
 .section__subtitle--work{
     text-align: center; 
-}
-
-.section__subtitle--work{
-    margin-top: 1rem;
 }
 
 .portfolio__item{
