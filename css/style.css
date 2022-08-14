@@ -376,41 +376,63 @@ header {
     }
   }
 
-/*  My services section  */
+/*  My skills section  */
 
-.my-services {
+.my-skills {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
+    background-image: url(../img/skills-bg.jpg);
     background-size: cover;
     background-blend-mode: soft-light;
     color: var(--clr-light);
     text-align: center;
 }
 
-.section__title--services {
+.my-skills p a {
+    color: var(--clr-accent);
+}
+
+.section__title--skills {
     color: var(--clr-accent);
     position: relative;
 }
 
-.services {
-    margin-bottom: 4em;
+.skills {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
 }
 
-.service {
-    max-width: 500px;
-    margin: 3em auto 0;
+.skill{
+    height: 142px;
+}
+
+.skill span {
+    display: block;
+    margin-top: .5rem;
+}
+
+.skill i{
+    font-size: 3.5rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.skill img{
+    width: 70px;
+    height: 56px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 @media (min-width: 800px) {
-    .services {
-        display: flex;
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
-    }
-    
-    .service + .service {
-        margin-left: 2em;
     }
 }
 
